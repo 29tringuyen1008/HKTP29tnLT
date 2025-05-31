@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Base\Animation.cpp" />
+    <ClCompile Include="Base\Base.cpp" />
+    <ClCompile Include="Base\Base_CreateLangSelectionBox.cpp" />
+    <ClCompile Include="Base\Base_LoadSettingUI.cpp" />
+    <ClCompile Include="Base\GameplayRelatedObjects.cpp" />
+    <ClCompile Include="Base\GameplayScript.cpp" />
+    <ClCompile Include="Base\GUI.cpp" />
+    <ClCompile Include="Base\Item.cpp" />
+    <ClCompile Include="Base\Lua\lapi.cpp" />
+    <ClCompile Include="Base\Lua\lauxlib.cpp" />
+    <ClCompile Include="Base\Lua\lbaselib.cpp" />
+    <ClCompile Include="Base\Lua\lcode.cpp" />
+    <ClCompile Include="Base\Lua\lcorolib.cpp" />
+    <ClCompile Include="Base\Lua\lctype.cpp" />
+    <ClCompile Include="Base\Lua\ldblib.cpp" />
+    <ClCompile Include="Base\Lua\ldebug.cpp" />
+    <ClCompile Include="Base\Lua\ldo.cpp" />
+    <ClCompile Include="Base\Lua\ldump.cpp" />
+    <ClCompile Include="Base\Lua\lfunc.cpp" />
+    <ClCompile Include="Base\Lua\lgc.cpp" />
+    <ClCompile Include="Base\Lua\linit.cpp" />
+    <ClCompile Include="Base\Lua\liolib.cpp" />
+    <ClCompile Include="Base\Lua\llex.cpp" />
+    <ClCompile Include="Base\Lua\lmathlib.cpp" />
+    <ClCompile Include="Base\Lua\lmem.cpp" />
+    <ClCompile Include="Base\Lua\loadlib.cpp" />
+    <ClCompile Include="Base\Lua\lobject.cpp" />
+    <ClCompile Include="Base\Lua\lopcodes.cpp" />
+    <ClCompile Include="Base\Lua\loslib.cpp" />
+    <ClCompile Include="Base\Lua\lparser.cpp" />
+    <ClCompile Include="Base\Lua\lstate.cpp" />
+    <ClCompile Include="Base\Lua\lstring.cpp" />
+    <ClCompile Include="Base\Lua\lstrlib.cpp" />
+    <ClCompile Include="Base\Lua\ltable.cpp" />
+    <ClCompile Include="Base\Lua\ltablib.cpp" />
+    <ClCompile Include="Base\Lua\ltm.cpp" />
+    <ClCompile Include="Base\Lua\lua.cpp" />
+    <ClCompile Include="Base\Lua\luac.cpp" />
+    <ClCompile Include="Base\Lua\lundump.cpp" />
+    <ClCompile Include="Base\Lua\lutf8lib.cpp" />
+    <ClCompile Include="Base\Lua\lvm.cpp" />
+    <ClCompile Include="Base\Lua\lzio.cpp" />
+    <ClCompile Include="Base\Main.cpp" />
+    <ClCompile Include="Base\MainScript.cpp" />
+    <ClCompile Include="Base\MapLoading.cpp" />
+    <ClCompile Include="Base\WindowsProcedures.cpp" />
+    <ClCompile Include="Core\Audio.cpp" />
+    <ClCompile Include="Core\Graphics.cpp" />
+    <ClCompile Include="Core\Menu.cpp" />
+    <ClCompile Include="Core\Misc.cpp" />
+    <ClCompile Include="Core\Object.cpp" />
+    <ClCompile Include="Core\Physics.cpp" />
+    <ClCompile Include="Core\Shader.cpp" />
+    <ClCompile Include="Core\Texture.cpp" />
+    <ClCompile Include="Core\Windows.cpp" />
+    <ClCompile Include="Base\GameObject.cpp" />
+    <ClCompile Include="Base\2DObjects.cpp" />
+    <ClCompile Include="Base\Lua29tnlibs.cpp" />
+    <ClCompile Include="Base\MapEditor.cpp" />
+    <ClCompile Include="Base\Task.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Base\Animation.h" />
+    <ClInclude Include="Base\Base.h" />
+    <ClInclude Include="Base\Camera.h" />
+    <ClInclude Include="Base\Entities.h" />
+    <ClInclude Include="Base\GameObjectBase.h" />
+    <ClInclude Include="Base\Item.h" />
+    <ClInclude Include="Base\GameplayRelatedObjects.h" />
+    <ClInclude Include="Base\MapLoading.h" />
+    <ClInclude Include="Base\Classes.h" />
+    <ClInclude Include="Base\Lua\lapi.h" />
+    <ClInclude Include="Base\Lua\lauxlib.h" />
+    <ClInclude Include="Base\Lua\lcode.h" />
+    <ClInclude Include="Base\Lua\lctype.h" />
+    <ClInclude Include="Base\Lua\ldebug.h" />
+    <ClInclude Include="Base\Lua\ldo.h" />
+    <ClInclude Include="Base\Lua\lfunc.h" />
+    <ClInclude Include="Base\Lua\lgc.h" />
+    <ClInclude Include="Base\Lua\ljumptab.h" />
+    <ClInclude Include="Base\Lua\llex.h" />
+    <ClInclude Include="Base\Lua\llimits.h" />
+    <ClInclude Include="Base\Lua\lmem.h" />
+    <ClInclude Include="Base\Lua\lobject.h" />
+    <ClInclude Include="Base\Lua\lopcodes.h" />
+    <ClInclude Include="Base\Lua\lopnames.h" />
+    <ClInclude Include="Base\Lua\lparser.h" />
+    <ClInclude Include="Base\Lua\lprefix.h" />
+    <ClInclude Include="Base\Lua\lstate.h" />
+    <ClInclude Include="Base\Lua\lstring.h" />
+    <ClInclude Include="Base\Lua\ltable.h" />
+    <ClInclude Include="Base\Lua\ltm.h" />
+    <ClInclude Include="Base\Lua\lua.h" />
+    <ClInclude Include="Base\Lua\lua.hpp" />
+    <ClInclude Include="Base\Lua\luaconf.h" />
+    <ClInclude Include="Base\Lua\lualib.h" />
+    <ClInclude Include="Base\Lua\lundump.h" />
+    <ClInclude Include="Base\Lua\lvm.h" />
+    <ClInclude Include="Base\Lua\lzio.h" />
+    <ClInclude Include="Core\Array.h" />
+    <ClInclude Include="Core\Audio.h" />
+    <ClInclude Include="Core\AudioEnum.h" />
+    <ClInclude Include="Core\Graphics.h" />
+    <ClInclude Include="Core\GraphicsEnum.h" />
+    <ClInclude Include="Core\GraphicsStructs.h" />
+    <ClInclude Include="Core\Misc.h" />
+    <ClInclude Include="Core\Object.h" />
+    <ClInclude Include="Core\Physics.h" />
+    <ClInclude Include="Core\Shader.h" />
+    <ClInclude Include="Core\Texture.h" />
+    <ClInclude Include="Core\Windows.h" />
+    <ClInclude Include="Base\GameObject.h" />
+    <ClInclude Include="Base\Lua29tnlibs.h" />
+    <ClInclude Include="Base\JSON.h" />
+    <ClInclude Include="Base\MapEditor.h" />
+    <ClInclude Include="Base\Task.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Natvis Include="Base\GameObjectBase.natvis" />
+    <Natvis Include="Core\Array.natvis" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>17.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{0ba53166-2eb7-473e-af88-aae615a7431f}</ProjectGuid>
+    <RootNamespace>My29tnsJourneyofExploration</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformMinVersion>7.0</WindowsTargetPlatformMinVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+    <PreferredToolArchitecture>x86</PreferredToolArchitecture>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <PreferredToolArchitecture>x86</PreferredToolArchitecture>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+    <WholeProgramOptimization>false</WholeProgramOptimization>
+    <CLRSupport>false</CLRSupport>
+    <EnableASAN>false</EnableASAN>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+    <EnableASAN>false</EnableASAN>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared" />
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <OutDir>$(SolutionDir)Output\$(Configuration)\$(Platform)\</OutDir>
+    <IntDir>$(SolutionDir)Intermediate\$(Configuration)\$(Platform)\</IntDir>
+    <TargetName>29tnJOE</TargetName>
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>$(SolutionDir)Output\$(Configuration)\$(Platform)\</OutDir>
+    <IntDir>$(SolutionDir)Intermediate\$(Configuration)\$(Platform)\</IntDir>
+    <TargetName>29tnJOE</TargetName>
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>$(SolutionDir)Output\$(Configuration)\$(Platform)\</OutDir>
+    <IntDir>$(SolutionDir)Intermediate\$(Configuration)\$(Platform)\</IntDir>
+    <TargetName>29tnJOE</TargetName>
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <OutDir>$(SolutionDir)Output\$(Configuration)\$(Platform)\</OutDir>
+    <IntDir>$(SolutionDir)Intermediate\$(Configuration)\$(Platform)\</IntDir>
+    <TargetName>29tnJOE</TargetName>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level1</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level1</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <SuppressStartupBanner>false</SuppressStartupBanner>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level1</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level1</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <SuppressStartupBanner>false</SuppressStartupBanner>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
