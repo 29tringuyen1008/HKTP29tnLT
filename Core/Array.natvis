@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AutoVisualizer xmlns="http://schemas.microsoft.com/vstudio/debugger/natvis/2010">
+  <Type Name="tn::ReferenceArray&lt;*&gt;">
+    <DisplayString>size = {size}</DisplayString>
+    <Expand>
+      <ArrayItems>
+        <Size>size</Size>
+        <ValuePointer>Base</ValuePointer>
+      </ArrayItems>
+    </Expand>
+  </Type>
+  <Type Name="tn::NormalArray&lt;*&gt;">
+    <DisplayString>size = {max_size}</DisplayString>
+    <Expand>
+      <ArrayItems>
+        <Size>max_size</Size>
+        <ValuePointer>Base</ValuePointer>
+      </ArrayItems>
+    </Expand>
+  </Type>
+</AutoVisualizer>

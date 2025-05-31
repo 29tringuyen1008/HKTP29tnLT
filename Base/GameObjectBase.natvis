@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AutoVisualizer xmlns="http://schemas.microsoft.com/vstudio/debugger/natvis/2010">
+  <Type Name="ObjArray">
+    <DisplayString>size = {max},  AsReference = {AsReference}</DisplayString>
+    <Expand>
+	  <Item Name="max">max</Item>
+      <Item Name="AsReference">AsReference</Item>
+      <Item Name="childamount">childamount</Item>
+	  <ArrayItems>
+          <Size>max</Size>
+          <ValuePointer>Base</ValuePointer>
+      </ArrayItems>
+    </Expand>
+  </Type>
+</AutoVisualizer>
